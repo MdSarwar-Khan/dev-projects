@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>myTunes — Your Music, Movies & TV Shows in One Place</title>
+    <meta name="description" content="myTunes lets you organize and enjoy the music, movies, and TV shows you already own, and shop for more — available on Mac, PC, iOS, and Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0cfddb2e1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="container" aria-label="Primary">
+            <div class="logo">
+                <i class="fa-solid fa-music" aria-hidden="true"></i> myTunes
+            </div>
+            <ul id="nav-links">
+                <li><a href="#/home" data-route="home">Overview</a></li>
+                <li><a href="#/music" data-route="music">Music</a></li>
+                <li><a href="#/movies" data-route="movies">Movies & TV</a></li>
+                <li><a href="#/video" data-route="video">Video</a></li>
+                <li><a href="#/gifts" data-route="gifts">Gift Cards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="route-progress" aria-hidden="true"></div>
+
+
+    <main id="app" aria-live="polite">
+
+    </main>
+
+    <footer>
+        <section class="upper">
+            <div class="container">
+                <div class="footer-links">
+                    <h4>Shop & Learn</h4>
+                    <ul>
+                        <li><a href="#/music" data-route="music">Music</a></li>
+                        <li><a href="#/movies" data-route="movies">Movies</a></li>
+                        <li><a href="#/video" data-route="video">Shows</a></li>
+                        <li><a href="#/home" data-route="home">App</a></li>
+                        <li><a href="#/gifts" data-route="gifts">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Orange Store</h4>
+                    <ul>
+                        <li>Find a Store</li>
+                        <li>Today at Orange</li>
+                        <li>Orange Camp</li>
+                        <li>Financing</li>
+                        <li>Order status</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Education & Business</h4>
+                    <ul>
+                        <li>Orange & Education</li>
+                        <li>Shop for College</li>
+                        <li>Orange & Business</li>
+                        <li>Shop for Business</li>
+                        <li>Jobs</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>About Orange</h4>
+                    <ul>
+                        <li>Newsroom</li>
+                        <li>Orange Leadership</li>
+                        <li>Investors</li>
+                        <li>Contact Orange</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="lower">
+            <p class="footer-copy">Copyright © 2025 Md Sarwar Khan</p>
+        </section>
+    </footer>
+
+    <script src="js/routes.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
